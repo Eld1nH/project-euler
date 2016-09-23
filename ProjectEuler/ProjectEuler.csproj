@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3330CD8F-F0C4-45A4-8D29-1A54342CA5A0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectEuler</RootNamespace>
+    <AssemblyName>ProjectEuler</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Page1\001 - 010\Problem001.cs" />
+    <Compile Include="Page1\001 - 010\Problem010.cs" />
+    <Compile Include="Page1\001 - 010\Problem002.cs" />
+    <Compile Include="Page1\001 - 010\Problem003.cs" />
+    <Compile Include="Page1\001 - 010\Problem004.cs" />
+    <Compile Include="Page1\001 - 010\Problem005.cs" />
+    <Compile Include="Page1\001 - 010\Problem006.cs" />
+    <Compile Include="Page1\001 - 010\Problem007.cs" />
+    <Compile Include="Page1\001 - 010\Problem008.cs" />
+    <Compile Include="Page1\001 - 010\Problem009.cs" />
+    <Compile Include="Page1\011 - 020\Problem011.cs" />
+    <Compile Include="Page1\011 - 020\Problem012.cs" />
+    <Compile Include="Page1\011 - 020\Problem013.cs" />
+    <Compile Include="Page1\011 - 020\Problem014.cs" />
+    <Compile Include="Page1\011 - 020\Problem015.cs" />
+    <Compile Include="Page1\011 - 020\Problem016.cs" />
+    <Compile Include="Page1\011 - 020\Problem017.cs" />
+    <Compile Include="Page1\011 - 020\Problem018.cs" />
+    <Compile Include="Page1\011 - 020\Problem019.cs" />
+    <Compile Include="Page1\011 - 020\Problem020.cs" />
+    <Compile Include="Page1\021 - 030\Problem021.cs" />
+    <Compile Include="Page1\021 - 030\Problem022.cs" />
+    <Compile Include="Page1\021 - 030\Problem023.cs" />
+    <Compile Include="Page1\021 - 030\Problem024.cs" />
+    <Compile Include="Page1\021 - 030\Problem025.cs" />
+    <Compile Include="Page1\021 - 030\Problem026.cs" />
+    <Compile Include="Page1\021 - 030\Problem027.cs" />
+    <Compile Include="Page1\021 - 030\Problem028.cs" />
+    <Compile Include="Page1\021 - 030\Problem029.cs" />
+    <Compile Include="Page1\021 - 030\Problem030.cs" />
+    <Compile Include="Page1\031 - 040\Problem031.cs" />
+    <Compile Include="Page1\031 - 040\Problem032.cs" />
+    <Compile Include="Page1\031 - 040\Problem033.cs" />
+    <Compile Include="Page1\031 - 040\Problem034.cs" />
+    <Compile Include="Page1\031 - 040\Problem035.cs" />
+    <Compile Include="Page1\031 - 040\Problem036.cs" />
+    <Compile Include="Page1\031 - 040\Problem037.cs" />
+    <Compile Include="Page1\031 - 040\Problem038.cs" />
+    <Compile Include="Page1\031 - 040\Problem039.cs" />
+    <Compile Include="Page1\031 - 040\Problem040.cs" />
+    <Compile Include="Page1\041 - 050\Problem041.cs" />
+    <Compile Include="Page1\041 - 050\Problem042.cs" />
+    <Compile Include="Page1\041 - 050\Problem043.cs" />
+    <Compile Include="Page1\041 - 050\Problem044.cs" />
+    <Compile Include="Page1\041 - 050\Problem045.cs" />
+    <Compile Include="Page1\041 - 050\Problem046.cs" />
+    <Compile Include="Page1\041 - 050\Problem047.cs" />
+    <Compile Include="Page1\041 - 050\Problem048.cs" />
+    <Compile Include="Page1\041 - 050\Problem049.cs" />
+    <Compile Include="Page1\041 - 050\Problem050.cs" />
+    <Compile Include="Page2\051 - 060\Problem051.cs" />
+    <Compile Include="Page2\051 - 060\Problem052.cs" />
+    <Compile Include="Page2\051 - 060\Problem053.cs" />
+    <Compile Include="Page2\051 - 060\Problem054.cs" />
+    <Compile Include="Page2\051 - 060\Problem055.cs" />
+    <Compile Include="Page2\051 - 060\Problem056.cs" />
+    <Compile Include="Page2\051 - 060\Problem057.cs" />
+    <Compile Include="Page2\051 - 060\Problem058.cs" />
+    <Compile Include="Page2\051 - 060\Problem059.cs" />
+    <Compile Include="Page2\051 - 060\Problem060.cs" />
+    <Compile Include="Page2\061 - 070\Problem061.cs" />
+    <Compile Include="Page2\061 - 070\Problem062.cs" />
+    <Compile Include="Page2\061 - 070\Problem063.cs" />
+    <Compile Include="Page2\061 - 070\Problem064.cs" />
+    <Compile Include="Page2\061 - 070\Problem065.cs" />
+    <Compile Include="Page2\061 - 070\Problem066.cs" />
+    <Compile Include="Page2\061 - 070\Problem067.cs" />
+    <Compile Include="Page2\061 - 070\Problem068.cs" />
+    <Compile Include="Page2\061 - 070\Problem069.cs" />
+    <Compile Include="Page2\061 - 070\Problem070.cs" />
+    <Compile Include="Page2\071 - 080\Problem071.cs" />
+    <Compile Include="Page2\071 - 080\Problem072.cs" />
+    <Compile Include="Page2\071 - 080\Problem073.cs" />
+    <Compile Include="Page2\071 - 080\Problem074.cs" />
+    <Compile Include="Page2\071 - 080\Problem075.cs" />
+    <Compile Include="Page2\071 - 080\Problem076.cs" />
+    <Compile Include="Page2\071 - 080\Problem077.cs" />
+    <Compile Include="Page2\071 - 080\Problem078.cs" />
+    <Compile Include="Page2\071 - 080\Problem079.cs" />
+    <Compile Include="Page2\071 - 080\Problem080.cs" />
+    <Compile Include="Page2\081 - 090\Problem081.cs" />
+    <Compile Include="Page2\081 - 090\Problem082.cs" />
+    <Compile Include="Page2\081 - 090\Problem083.cs" />
+    <Compile Include="Page2\081 - 090\Problem084.cs" />
+    <Compile Include="Page2\081 - 090\Problem085.cs" />
+    <Compile Include="Page2\081 - 090\Problem086.cs" />
+    <Compile Include="Page2\081 - 090\Problem087.cs" />
+    <Compile Include="Page2\081 - 090\Problem088.cs" />
+    <Compile Include="Page2\081 - 090\Problem089.cs" />
+    <Compile Include="Page2\081 - 090\Problem090.cs" />
+    <Compile Include="Page2\091 - 100\Problem091.cs" />
+    <Compile Include="Page2\091 - 100\Problem092.cs" />
+    <Compile Include="Page2\091 - 100\Problem093.cs" />
+    <Compile Include="Page2\091 - 100\Problem094.cs" />
+    <Compile Include="Page2\091 - 100\Problem095.cs" />
+    <Compile Include="Page2\091 - 100\Problem096.cs" />
+    <Compile Include="Page2\091 - 100\Problem097.cs" />
+    <Compile Include="Page2\091 - 100\Problem098.cs" />
+    <Compile Include="Page2\091 - 100\Problem099.cs" />
+    <Compile Include="Page2\091 - 100\Problem100.cs" />
+    <Compile Include="Page3\101 - 110\Problem101.cs" />
+    <Compile Include="Page3\101 - 110\Problem102.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="BigRationalLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Downloads\BigRational\BigRational\BigRationalLibrary\bin\Debug\BigRationalLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Numerics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\base_exp.txt" />
+    <Content Include="Assets\cipher1.txt" />
+    <Content Include="Assets\keylog.txt" />
+    <Content Include="Assets\matrix.txt" />
+    <Content Include="Assets\names.txt" />
+    <Content Include="Assets\poker.txt" />
+    <Content Include="Assets\roman.txt" />
+    <Content Include="Assets\sudoku.txt" />
+    <Content Include="Assets\triangle.txt" />
+    <Content Include="Assets\triangles.txt" />
+    <Content Include="Assets\words.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
